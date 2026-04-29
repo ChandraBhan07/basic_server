@@ -12,12 +12,16 @@ if(WIN32)
     target_sources(app PRIVATE
         src/platform/windows/socket.cpp src/platform/windows/eventLoop.cpp
     )
-    target_link_libraries(app ws2_32)
 
 elseif(LINUX)
     target_sources(app PRIVATE
         src/platform/linux/socket.cpp src/platform/windows/eventLoop.cpp
     )
+endif()
+
+# Platform-specific linker libs
+if(WIN32)
+    target_link_libraries(app ws2_32)
 endif()
 
 # Include headers
