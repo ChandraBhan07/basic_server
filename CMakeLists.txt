@@ -15,7 +15,7 @@ if(WIN32)
 
 elseif(LINUX)
     target_sources(app PRIVATE
-        src/platform/linux/socket.cpp src/platform/windows/eventLoop.cpp
+        src/platform/linux/socket.cpp src/platform/linux/eventLoop.cpp
     )
 endif()
 
