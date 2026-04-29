@@ -1,0 +1,3 @@
+C:/Users/Machinarium/Desktop/New folder (3)/eventloop/build/CMakeFiles/app.dir
+C:/Users/Machinarium/Desktop/New folder (3)/eventloop/build/CMakeFiles/edit_cache.dir
+C:/Users/Machinarium/Desktop/New folder (3)/eventloop/build/CMakeFiles/rebuild_cache.dir
