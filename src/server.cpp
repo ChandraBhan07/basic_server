@@ -11,7 +11,7 @@ void Server::run()
 
     while (true)
     {
-        // accept_new_clients();
+        accept_new_clients();
     }
 }
 
